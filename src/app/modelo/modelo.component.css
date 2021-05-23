@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'popins',sans-serif;
+}
+
+
+head{
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #767B8F;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .contenedor{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+footer .contenedor .sec{
+
+  margin-right: 300px;
+
+}
+
+footer .contenedor .sec.aboutus{
+  width: 40%;
+}
+
+footer .contenedor h2{
+  position: relative;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+footer .contenedor h2::before{
+
+  content:'';
+  position:absolute;
+  bottom: -5px;
+  left:0;
+  width:50px;
+  height:2px;
+  background: #f00;
+}
+
+
+.list{
+  margin-top: 20px;
+  display: flex;
+
+}
+
+.list li{
+  list-style: none;
+}
+
+.list li a{
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+.list li a:hover{
+    background: #f00;
+}
+
+.list li a .fa{
+  color: #fff;
+  font-size:20 px;
+
+}
+
+.quick ul li{
+  list-style: none;
+}
+
+.quick ul li a{
+  color:black ;
+  text-decoration: none;
+  margin: bottom 10px;
+}
+
+
+
+
